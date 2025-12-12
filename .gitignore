@@ -52,7 +52,7 @@ coverage.xml
 .ipynb_checkpoints
 
 # pyenv
-.python-version
+# .python-version  # Needed for Heroku deployment
 
 # Environment
 .env
