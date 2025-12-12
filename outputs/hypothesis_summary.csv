@@ -1,0 +1,5 @@
+Hypothesis,Test,Statistic,p-value,Effect Size,Result
+H1: Website Engagement Time,t-test,31.30,0.0000,0.71 (medium),✓ SUPPORTED
+H2: Lead Source Impact,Chi-square,618.23,0.0000,0.28 (small),✓ SUPPORTED
+H3: Activity Recency,Chi-square,348.43,0.0000,0.21 (small),✓ SUPPORTED
+H4: Visit Frequency,Chi-square,14.93,0.0006,0.04 (negligible),✓ PARTIALLY SUPPORTED
