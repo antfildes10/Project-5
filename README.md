@@ -351,18 +351,18 @@ streamlit run app.py
 
 ## Main Data Analysis and ML Libraries
 
-| Library | Version | Purpose |
-|---------|---------|---------|
-| pandas | 2.0.3 | Data manipulation and analysis |
-| numpy | 1.24.3 | Numerical operations |
-| matplotlib | 3.7.2 | Static visualisations |
-| seaborn | 0.12.2 | Statistical visualisations |
-| plotly | 5.18.0 | Interactive visualisations |
-| scikit-learn | 1.3.0 | Machine learning algorithms |
-| ppscore | 1.3.0 | Predictive Power Score analysis |
-| streamlit | 1.29.0 | Dashboard framework |
-| scipy | 1.11.2 | Statistical testing |
-| joblib | 1.3.2 | Model serialisation |
+| Library | Version | Usage Example |
+|---------|---------|---------------|
+| pandas | 2.0.3 | Used to load the leads dataset from CSV and perform data cleaning operations such as handling missing values and creating derived features like `Engagement_Score` |
+| numpy | 1.24.3 | Used for numerical operations including calculating median values for imputation and creating binary indicators for high engagement |
+| matplotlib | 3.7.2 | Used to create static visualisations including the confusion matrix heatmap and ROC curve in the modelling notebook |
+| seaborn | 0.12.2 | Used to display bar plots showing conversion rates by Lead Source on the Lead Conversion Study page, and to create the correlation heatmap |
+| plotly | 5.18.0 | Used for interactive visualisations in the dashboard allowing users to hover over data points for detailed information |
+| scikit-learn | 1.3.0 | Used to build the Random Forest classification pipeline, perform GridSearchCV hyperparameter tuning, and evaluate model performance with metrics like recall and precision |
+| ppscore | 1.3.0 | Used in the EDA notebook to calculate Predictive Power Scores between all features and the target variable to identify non-linear relationships |
+| streamlit | 1.29.0 | Used to build the interactive dashboard with widgets like sliders, selectboxes and buttons for the lead prediction form |
+| scipy | 1.11.2 | Used to perform statistical hypothesis testing including t-tests for H1 and chi-square tests for H2-H4 validation |
+| joblib | 1.3.2 | Used to serialise and save the trained ML pipeline to `clf_pipeline.pkl` for loading in the Streamlit dashboard |
 
 ---
 
