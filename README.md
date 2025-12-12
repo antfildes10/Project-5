@@ -4,7 +4,7 @@
 
 A Machine Learning project that predicts B2B lead conversion probability, helping sales teams prioritise their outreach efforts and improve conversion rates.
 
-**Live Dashboard:** [Lead Conversion Predictor on Heroku](https://your-app-name.herokuapp.com/)
+**Live Dashboard:** [Lead Conversion Predictor on Heroku](https://project-5-antfildes10.herokuapp.com/)
 
 ---
 
