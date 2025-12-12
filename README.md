@@ -184,7 +184,9 @@ Based on validated hypotheses, recommended business actions include:
 
 ### Learning Method
 
-We employ **supervised classification** using historical labelled data. The model learns patterns from leads that converted vs those that didn't, then applies these patterns to score new leads.
+We employ **supervised classification** using historical **labelled data** where each record has a known **target** outcome. The **machine learning task** is **binary classification** - predicting whether a lead will convert (1) or not (0).
+
+We **train** (fit) the model on the training set, allowing it to learn patterns from the input **variables** (features). The trained model then makes **predictions** on new, unseen leads by outputting a probability score.
 
 ### Algorithm Selection
 
