@@ -5,7 +5,6 @@ Functions for making predictions with the trained model.
 """
 
 import pandas as pd
-import numpy as np
 
 
 def predict_conversion(pipeline, input_data):
