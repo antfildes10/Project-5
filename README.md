@@ -374,9 +374,18 @@ streamlit run app.py
 - [Kaggle Leads Dataset](https://www.kaggle.com/datasets/ashydv/leads-dataset) by Ashy DV
 
 ### Code References
-- Code Institute LMS walkthrough projects
-- [Streamlit Documentation](https://docs.streamlit.io/)
-- [Scikit-learn Documentation](https://scikit-learn.org/stable/)
+- Code Institute LMS walkthrough projects (Churnometer, Malaria Detector) - used as inspiration for project structure, CRISP-DM methodology, and dashboard design patterns
+- [Streamlit Documentation](https://docs.streamlit.io/) - widget implementation and caching
+- [Scikit-learn Documentation](https://scikit-learn.org/stable/) - RandomForestClassifier hyperparameters and GridSearchCV implementation
+
+### AI Assistance Disclosure
+This project was developed with assistance from **Claude Code** (Anthropic's AI coding assistant). The AI was used to:
+- Help structure and organise code files
+- Debug errors and suggest fixes
+- Generate boilerplate code for dashboard pages
+- Assist with documentation writing
+
+All code has been reviewed, understood, and can be explained by the student. The project design, business requirements, hypothesis formulation, and analytical decisions were made by the student.
 
 ### Acknowledgements
 - Code Institute mentors and tutors
