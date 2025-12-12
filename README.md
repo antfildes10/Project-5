@@ -1,12 +1,35 @@
 # Lead Conversion Predictor
 
-![Lead Conversion Predictor](outputs/figures/target_distribution.png)
-
 ## Portfolio Project 5 - Predictive Analytics
 
 A Machine Learning project that predicts B2B lead conversion probability, helping sales teams prioritise their outreach efforts and improve conversion rates.
 
 **Live Dashboard:** [Lead Conversion Predictor on Heroku](https://your-app-name.herokuapp.com/)
+
+---
+
+## Dashboard Preview
+
+![Project Summary](docs/screenshots/01_summary.png)
+
+*Project Summary page showing business requirements and dataset overview*
+
+<details>
+<summary>View More Screenshots</summary>
+
+### Lead Conversion Study
+![Lead Study](docs/screenshots/02_lead_study.png)
+
+### Hypothesis Validation
+![Hypothesis](docs/screenshots/03_hypothesis.png)
+
+### Lead Predictor
+![Predictor](docs/screenshots/04_predictor.png)
+
+### Model Performance
+![Model Performance](docs/screenshots/05_model_performance.png)
+
+</details>
 
 ---
 
