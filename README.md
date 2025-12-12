@@ -202,12 +202,12 @@ After comparing **Logistic Regression**, **Random Forest**, and **Gradient Boost
 
 ### Evaluation Metrics
 
-| Metric | Target | Achieved |
-|--------|--------|----------|
-| Recall | ≥0.75 | TBD |
-| Precision | ≥0.80 | TBD |
-| F1 Score | ≥0.75 | TBD |
-| ROC-AUC | ≥0.80 | TBD |
+| Metric | Target | Achieved | Status |
+|--------|--------|----------|--------|
+| Recall | ≥0.75 | **90.7%** | ✅ Exceeded |
+| Precision | ≥0.80 | **94.4%** | ✅ Exceeded |
+| F1 Score | ≥0.75 | **92.5%** | ✅ Exceeded |
+| ROC-AUC | ≥0.80 | **97.8%** | ✅ Exceeded |
 
 ### Model Output
 
