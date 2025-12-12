@@ -349,7 +349,7 @@ The project was deployed to Heroku following these steps:
 4. **Required Files:**
    - `Procfile` - Specifies the command to run the app
    - `requirements.txt` - Python dependencies
-   - `runtime.txt` - Python version
+   - `.python-version` - Python version (3.12)
    - `setup.sh` - Streamlit configuration
 
 ### Local Development
@@ -464,9 +464,9 @@ lead-conversion-predictor/
 │       └── raw/
 ├── .streamlit/
 │   └── config.toml
+├── .python-version
 ├── Procfile
 ├── requirements.txt
-├── runtime.txt
 ├── setup.sh
 └── README.md
 ```
