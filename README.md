@@ -402,13 +402,20 @@ streamlit run app.py
 - [Scikit-learn Documentation](https://scikit-learn.org/stable/) - RandomForestClassifier hyperparameters and GridSearchCV implementation
 
 ### AI Assistance Disclosure
-This project was developed with assistance from **Claude Code** (Anthropic's AI coding assistant). The AI was used to:
-- Help structure and organise code files
-- Debug errors and suggest fixes
-- Generate boilerplate code for dashboard pages
-- Assist with documentation writing
+This project was written by the student with assistance from **Claude Code** (Anthropic's AI coding assistant). The AI was used as a development tool to:
+- Assist with debugging and troubleshooting errors
+- Help format and structure code
+- Suggest improvements to existing code written by the student
+- Assist with documentation formatting and wording
 
-All code has been reviewed, understood, and can be explained by the student. The project design, business requirements, hypothesis formulation, and analytical decisions were made by the student.
+**The student's contributions include:**
+- All project design and architecture decisions
+- Business requirements analysis and hypothesis formulation
+- Data analysis methodology and interpretation
+- Machine learning model selection and evaluation
+- Writing and understanding all code in the project
+
+All code can be fully explained by the student. The AI served as a productivity tool, similar to using Stack Overflow or documentation, not as the author of the work.
 
 ### Acknowledgements
 - Code Institute mentors and tutors
