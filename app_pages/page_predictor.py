@@ -343,26 +343,3 @@ def page_predictor_body():
                 st.error(f"Error making prediction: {str(e)}")
                 st.info("Please check that all fields are filled correctly.")
 
-    # Batch Prediction
-    st.markdown("---")
-    st.header("Batch Prediction")
-
-    st.markdown(
-        """
-        Upload a CSV file with multiple leads to score them all at once.
-        The file should include columns for the features shown above.
-        """
-    )
-
-    uploaded_file = st.file_uploader("Upload CSV file", type=['csv'])
-
-    if uploaded_file is not None:
-        try:
-            batch_df = pd.read_csv(uploaded_file)
-            st.write(f"Uploaded {len(batch_df)} leads")
-            st.dataframe(batch_df.head())
-
-            if st.button("Score All Leads"):
-                st.info("Batch prediction feature will be available after model training.")
-        except Exception as e:
-            st.error(f"Error reading file: {str(e)}")
